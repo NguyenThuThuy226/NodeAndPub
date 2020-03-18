@@ -15,6 +15,18 @@ app.get("/",(req,res)=>{
     res.render('index');
 })
 
+app.get('/views',(req,res)=>{
+    res.render('category');
+})
+
+app.get('/views2',(req,res)=>{
+    res.render('category10_12');
+})
+
+app.get('/views3',(req,res)=>{
+    res.render('category12_14');
+})
+
 app.get('/form',(req,res)=>{
     res.render('form');
 })
